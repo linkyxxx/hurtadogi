@@ -1,0 +1,104 @@
+/* General Styles ( You don't need this for your button ) */
+body
+{
+     background:#f9f9f9;
+}
+#container
+{
+	width: 900px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	 -webkit-border-radius: 0px;
+	 -moz-border-radius: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.text
+{
+     font-size:0px;
+	 color:#666;
+	 border-bottom:1px solid black;
+}
+.return
+{
+     color: #809dba;
+}
+/*End General Styles*/
+
+/* Button Styles */
+
+.barra1
+{
+     background: url(imagenes/barra.jpg);
+	 background-position: 0px 0px;
+     height:50px;
+	 width:0px;
+	 display:block;
+}
+.home
+{
+     background: url(imagenes/barra.jpg);
+	 background-position: -90px 0px;
+     height:50px;
+	 width:94px;
+	 display:block;
+}
+.quienessomos
+{
+     background: url(imagenes/barra.jpg);
+	 background-position:-184px 0px;
+     height:50px;
+	 width:190px;
+	 display:block;
+}
+.servicios
+{
+     background: url(imagenes/barra.jpg);
+	 background-position:-374px 0px;
+     height:50px;
+	 width:136px;
+	 display:block;
+}
+.comunidad
+{
+     background: url(imagenes/barra.jpg);
+	 background-position:-510px 0px;
+     height:50px;
+	 width:176px;
+	 display:block;
+}
+.contacto
+{
+     background: url(imagenes/barra.jpg);
+	 background-position:-685px -50px;
+     height:50px;
+	 width:136px;
+	 display:block;
+}
+.barra1:hover
+{
+     background-position:0px 0px;
+}
+.home:hover
+{
+     background-position:-90px -50px;
+}
+
+.quienessomos:hover
+{
+     background-position:-184px -50px;
+}
+.servicios:hover
+{
+     background-position:-374px -50px;
+}
+.comunidad:hover
+{
+     background-position:-510px -50px;
+}
+.contacto:hover
+{
+     background-position:-685px -50px;
+}
